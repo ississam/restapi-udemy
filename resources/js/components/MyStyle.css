@@ -1,0 +1,81 @@
+
+.mylogo{
+    width: 120px;
+    height: auto;
+  }
+  
+  
+  .nav-menu-img{
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .bg1{
+    background-color: #29303b!important ;
+  }
+  
+  
+  .bg2{
+    background-color: #f7f8fa!important ;
+  }
+  
+  .color1{
+    color: #29303b;
+  }
+  
+  .color-start{
+    color: #f4c150;
+  }
+  
+  
+  .my-box-shadow:hover {
+    -webkit-box-shadow: -2px 3px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 3px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px 3px 16px 0px rgba(0,0,0,0.75) !important;
+  }
+
+
+
+  .flip-card {
+    background-color: transparent;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    height: 350px !important;
+    background-color: white !important;
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+
+  
+  /* Style the back side */
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
+
+  .my-h-75{
+    height: 600px !important;
+  }
+
+
+  .w-130{
+    width: 170px;
+  }
